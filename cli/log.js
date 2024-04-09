@@ -19,4 +19,4 @@ module.exports.plain = (...args) => {
 
 module.exports.table = (...args) => {
   console.table(...args);
-}
+};
