@@ -66,34 +66,3 @@ device.destroy();
 ```
 
 List of properties and methods for specific device can be found at ./devices folder.
-
-## Comparison to other popular libraries
-
-| | node-mihome | [miio](<https://github.com/aholstenson/miio>) |
-| :--- |:----: | :-----:|
-| Implements miIO local protocol | **yes** | **yes** |
-| Implements MIoT cloud protocol: easy device token retrieval, many useful device information, control devices over internet, control devices which cannot be controlled from LAN, supports new devices e.g. Mi Air Purifier 3, etc. | **yes** | no |
-| Implements Aqara protocol (for ZigBee devices) | **full** | only read properties |
-| Number of supported devices, including new ones | **large and counting** | medium |
-| Library update frequency | **medium** | a long time since last update |
-
-## Roadmap
-
-- [x] Implement miio-protocol: <https://github.com/OpenMiHome/mihome-binary-protocol/blob/master/doc/PROTOCOL.md>
-- [x] Implement aqara-protocol: <http://docs.opencloud.aqara.com/en/development/gateway-LAN-communication/>
-- [x] Implement micloud-protocol: cloud login, access device information (model, token, ...), update device, ...
-- [ ] Implement ble-protocol for Bluetooth based devices
-- [ ] Documentation
-- [ ] Add support for more Mi ecosystem devices
-
-## Reporting an issue and new devices support requests
-
-Please report all issues you have found. Also, feel free to request support for new devices. Thanks!
-
-## Buy me a coffee
-
-BTC: 1E9k2s3swbTwPRgHqjNHmxkWF8hf7uN2sc
-
-ETH: 0x25b744eeb2a979f39e8375c8c9fac6db750438b1
-
-Paypal: <https://paypal.me/maxinminax>
