@@ -26,7 +26,7 @@
   "author": "maxinminax <ng.nhuphu@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.24.1",
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
