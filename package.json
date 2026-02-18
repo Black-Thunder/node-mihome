@@ -4,23 +4,21 @@
 	"description": "Control Mi Home devices, such as Mi Robot Vacuums, Mi Air Purifiers, Mi Smart Home Gateway (Aqara) and more",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/maxinminax/node-mihome.git"
+		"url": "git+https://github.com/Black-Thunder/node-mihome.git"
 	},
 	"main": "lib/index.js",
+	"type": "commonjs",
 	"files": [
-		"admin{,/!(src)/**}/!(tsconfig|tsconfig.*|.eslintrc).{json,json5}",
-		"admin{,/!(src)/**}/*.{html,css,png,svg,jpg,js}",
-		"build/",
-		"www/",
-		"io-package.json",
+		"lib/",
+		"cli/",
 		"LICENSE",
-		"index.d.ts"
+		"README.md"
 	],
-	"directories": {
-		"lib": "lib"
+	"exports": {
+		".": "./lib/index.js"
 	},
 	"engines": {
-		"node": ">=10.0.0"
+		"node": ">=16"
 	},
 	"keywords": [
 		"xiaomi",
