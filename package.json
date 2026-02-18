@@ -7,6 +7,15 @@
 		"url": "git+https://github.com/maxinminax/node-mihome.git"
 	},
 	"main": "lib/index.js",
+	"files": [
+		"admin{,/!(src)/**}/!(tsconfig|tsconfig.*|.eslintrc).{json,json5}",
+		"admin{,/!(src)/**}/*.{html,css,png,svg,jpg,js}",
+		"build/",
+		"www/",
+		"io-package.json",
+		"LICENSE",
+		"index.d.ts"
+	],
 	"directories": {
 		"lib": "lib"
 	},
@@ -23,7 +32,7 @@
 		"aqara",
 		"yeelight"
 	],
-	"author": "maxinminax <ng.nhuphu@gmail.com>",
+	"author": "Black-Thunder <glwars@aol.de>",
 	"license": "MIT",
 	"dependencies": {
 		"chalk": "^4.1.0",
@@ -34,9 +43,9 @@
 		"yargs": "^16.0.3"
 	},
 	"bugs": {
-		"url": "https://github.com/maxinminax/node-mihome/issues"
+		"url": "https://github.com/Black-Thunder/node-mihome/issues"
 	},
-	"homepage": "https://github.com/maxinminax/node-mihome#readme",
+	"homepage": "https://github.com/Black-Thunder/node-mihome#readme",
 	"bin": {
 		"miio": "./cli/index.js"
 	},
