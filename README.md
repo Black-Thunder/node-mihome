@@ -15,7 +15,7 @@ npm install node-mihome
 ## Usage
 
 ```javascript
-const mihome = require('node-mihome');
+const mihome = require("node-mihome");
 ```
 
 Some devices aren't supported over local protocol (miIO) so you need to use cloud protocol (MIoT) to control those devices. User and password for [Mi Account](https://account.xiaomi.com/) is required to use cloud protocol.
@@ -30,8 +30,8 @@ mihome.miioProtocol.init();
 mihome.aqaraProtocol.init();
 
 // cloud MIoT
-const username = 'email@example.com';
-const password = 'password';
+const username = "email@example.com";
+const password = "password";
 await mihome.miCloudProtocol.login(username, password);
 ```
 
@@ -54,7 +54,7 @@ const device = mihome.device({
   address: '192.168.31.13', // miio-device option, local ip address
   token: 'abcdefgfabcdefgfabcdefgfabcdefgf', // miio-device option, device token
   refresh: 30000 // miio-device option, device properties refresh interval in ms
-  
+
   parent: '1234abcd', // aqara-device option, gateway SID for aqara-protocol compatible device
 });
 device.on('properties', (data) => {
