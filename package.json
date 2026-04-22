@@ -50,7 +50,8 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint -c eslint.config.mjs .",
-		"lint:fix": "eslint -c eslint.config.mjs . --fix"
+		"lint:fix": "eslint -c eslint.config.mjs . --fix",
+		"fix": "npm run lint:fix && npx prettier --write ."
 	},
 	"devDependencies": {
 		"@iobroker/eslint-config": "^2.2.0"
