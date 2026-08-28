@@ -54,6 +54,6 @@
 		"fix": "npm run lint:fix && npx prettier --write ."
 	},
 	"devDependencies": {
-		"@iobroker/eslint-config": "^2.2.0"
+		"@iobroker/eslint-config": "^2.3.4"
 	}
 }
