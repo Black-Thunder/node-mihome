@@ -33,7 +33,7 @@
 	"author": "Black-Thunder <glwars@aol.de>",
 	"license": "MIT",
 	"dependencies": {
-		"chalk": "^4.1.0",
+		"chalk": "^6.0.0",
 		"debug": "^4.1.1",
 		"glob": "^7.1.6",
 		"node-fetch": "^3.3.2",
